@@ -1,0 +1,167 @@
+#head{
+    width: 100%;
+   margin-top: -7px;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    width: 100%;
+    margin-top: -7px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   
+}
+#method>h3{
+  color: chocolate;
+}
+#method>p{
+  color: rgb(148, 149, 139);
+ font-size: 25px;
+}
+
+
+#head>img{
+  
+ height: 50px;
+  align-self: center;
+}
+
+
+
+#billing{
+
+    width: 280px;
+    height: 460px;
+    margin-left: 35px;
+  }
+  #billing>div{
+    line-height: 5px;
+  }
+  #billing>div>h4,#billing>div>h3{
+    display: inline-block;
+    margin-top: 15px;
+    color: grey;
+  }
+  #billing>div>#p{
+    color: black;
+  }
+  #item_price,#DchargesNumber,#codCharges,#discount_amount,#total_amount{
+    float: right;
+    margin-top: -15px;
+  }
+  #continue{
+    display: block;
+    margin-top: 30px;
+    padding: 12px 100px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    background-color:  #febd68;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  #use{
+    border-color: whitesmoke;
+   border-radius: 5px;
+    color: black;
+     background-color: #febd68;
+     height: 40px;
+
+  }
+  #billing>div{
+    border-left:1px solid grey;
+    padding-left: 10px;
+  }
+  #hr1{
+    margin-top: 15px;
+  }
+  #billing>div>#order, #billing>div>#total_amount{
+    color: black;
+  }
+  #pay{
+    
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+  }
+  #method{
+    width: 540px;
+    margin-top: -10px;
+  }
+  #cash{
+   border-radius: 5px;
+    background-color: lavender;
+    justify-content: space-around;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    align-items: center;
+
+  
+  }
+  #cash>p{
+    color:#268697;
+   
+  }
+
+  .icon+h3{
+    display: inline-block;
+    margin-left: 10px;
+   
+  }
+  .icon{
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(115, 177, 22);
+   
+  }
+  .icon2{
+   margin-left: 270px;
+   font-size: 30px;
+    color:white;
+    background-color:rgb(115, 177, 22); ;
+    border-radius: 21px;
+    
+  }
+  #reselling{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     padding: 10px 15px;
+  }
+ #resell{
+   display: inline-block;
+ }
+ #no{
+   margin-left: 210px;
+   border: 1px solid #febd68;
+   color: #febd68;
+   background-color: lavenderblush;
+ }
+ #no,#yes{
+   padding: 5px 12px;
+   border-radius: 20px;
+   font-size: 17px;
+   cursor: pointer;
+ }
+ #input{
+  height: 27px;
+  width:485px ;
+  border-width:0px;
+  border:none;
+  outline:none;
+  font-size: 17px;
+ }
+#margin>button{
+  border-radius: 10px;
+  border: white;
+ 
+  height: 40px;
+  width: 50px;
+  font-size: 20px;
+  background-color: #febd68 ;
+  color:black;
+}
+
+ 

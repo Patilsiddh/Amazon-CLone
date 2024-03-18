@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+   
+   
+  
+  
+  <style>
+
+
+
+        #head{
+    width: 100%;
+   margin-top: -7px;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    width: 100%;
+    margin-top: -7px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   
+}
+#method>h3{
+  color: chocolate;
+}
+#method>p{
+  color: rgb(148, 149, 139);
+ font-size: 25px;
+}
+
+
+#head>img{
+  
+ height: 50px;
+  align-self: center;
+ 
+}
+
+
+
+#billing{
+
+    width: 280px;
+    height: 460px;
+    margin-left: 35px;
+  }
+  #billing>div{
+    line-height: 5px;
+  }
+  #billing>div>h4,#billing>div>h3{
+    display: inline-block;
+    margin-top: 15px;
+    color: grey;
+  }
+  #billing>div>#p{
+    color: black;
+  }
+  #item_price,#DchargesNumber,#codCharges,#discount_amount,#total_amount{
+    float: right;
+    margin-top: -15px;
+  }
+  #continue{
+    display: block;
+    margin-top: 30px;
+    padding: 12px 100px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    background-color:  #febd68;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  #use{
+    border-color: whitesmoke;
+   border-radius: 5px;
+    color: black;
+     background-color: #febd68;
+     height: 40px;
+
+  }
+  #billing>div{
+    border-left:1px solid grey;
+    padding-left: 10px;
+  }
+  #hr1{
+    margin-top: 15px;
+  }
+  #billing>div>#order, #billing>div>#total_amount{
+    color: black;
+  }
+  #pay{
+    
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+  }
+  #method{
+    width: 540px;
+    margin-top: -10px;
+  }
+  #cash{
+   border-radius: 5px;
+    background-color: lavender;
+    justify-content: space-around;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    align-items: center;
+
+  
+  }
+  #cash>p{
+    color:#268697;
+   
+  }
+
+  .icon+h3{
+    display: inline-block;
+    margin-left: 10px;
+   
+  }
+  .icon{
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(115, 177, 22);
+   
+  }
+  .icon2{
+   margin-left: 270px;
+   font-size: 30px;
+    color:white;
+    background-color:rgb(115, 177, 22); ;
+    border-radius: 21px;
+    
+  }
+  #reselling{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     padding: 10px 15px;
+  }
+ #resell{
+   display: inline-block;
+ }
+ #no{
+   margin-left: 210px;
+   border: 1px solid #febd68;
+   color: #febd68;
+   background-color: lavenderblush;
+ }
+ #no,#yes{
+   padding: 5px 12px;
+   border-radius: 20px;
+   font-size: 17px;
+   cursor: pointer;
+ }
+ #input{
+  height: 27px;
+  width:485px ;
+  border-width:0px;
+  border:none;
+  outline:none;
+  font-size: 17px;
+ }
+#margin>button{
+  border-radius: 10px;
+  border: white;
+ 
+  height: 40px;
+  width: 50px;
+  font-size: 20px;
+  background-color: #febd68 ;
+  color:black;
+}
+  </style>
+
+
+</head>
+
+<body>
+    <div id="head">
+        <img src="https://tse2.mm.bing.net/th?id=OIP._P3Afun30simE-5mx7cAzwHaCS&pid=Api&P=0&h=220" alt="">
+        <h1>Checkout</h1>
+        <img src="https://m.media-amazon.com/images/G/31/x-locale/checkout/truespc/secured-ssl._CB485936980_.png" alt="">
+    </div>
+ 
+
+    <div id="pay">
+        
+        <div id="method">
+            
+           
+            <h3>Select a Payment Method</h3>
+            
+            <div id="cash">
+                
+                <i class="fa-regular fa-money-bill-1 icon "></i> <h3> Cash On Delivery</h3><i
+                class="fa-regular fa-circle-check icon2"></i>
+            </div>
+            <div id="reselling">
+                <h3 id="resell">Debit Card     </h3>
+                <button id="no">No</button>
+                <button id="yes">Yes</button>
+               <img src="https://tse4.mm.bing.net/th?id=OIP.Zhg_B60tA3lXsf_8USiL6gHaB4&pid=Api&P=0&h=220" alt="">
+                <span id="span">
+                    <hr>
+                    <h3 id="collected">Card Number</h3>
+                    <input id="input" type="text" placeholder="Enter Your Card Number Here">
+                    <hr>
+
+
+                    <h3 id="collected">Cardholder's Name</h3>
+                    <input id="input" type="text" placeholder="Your Name">
+                    <hr>
+
+
+                    <h3 id="collected">Card Expiry</h3>
+                    <input id="input" type="text" placeholder="Expiry">
+                    <hr>
+
+
+                    <h3 id="collected">CVV</h3>
+                    <input id="input" type="text" placeholder="CVV">
+                    <hr>
+
+
+
+
+
+                    <p id="nomargin"></p>
+                    <p id="margin" > <button>Pay</button></p>
+                </span>
+              
+            </div>
+
+
+
+
+            <h3>Select a Delivery Address</h3>
+            <div id="cash">
+                <h3> Your Address</h3>
+<p>Sending items to more than one place</p>
+                <br>
+               
+            </div>
+           <p>Siddhant Patil</p> <p>Ahilyabai Holkar Chowk , Ashok Nagar , Nashik , MAHARASHTRA, 424101, India.  </p>
+            
+            <button id="use">Use This Address</button>
+        </div>
+       
+
+     
+
+        <div id="billing">
+           
+            <div>
+              <h3 id="p">Order Summary</h3>
+            <br>
+            <h4 id="Pcharges">Items:</h4>
+            <h4 id="item_price">1</h4>
+            <br>
+            <h4 id="Dcharges">Delivery:</h4>
+            <h4 id="DchargesNumber">₹160.00 </h4>
+            <br>
+            <h4 id="cod">Total:</h4>
+            <h4 id="codCharges">₹22,999</h4>
+            <br>
+            <h4 id="discount">Discount:</h4>
+            <h4 id="discount_amount">-₹500</h4>
+            <br>
+            <hr id="hr1"/>
+            <h3 id="order">Order Total</h3>
+            <h3 id="total_amount">₹22,499</h3>
+            </div>
+            
+            <button id="continue">Continue</button>
+
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
+
+

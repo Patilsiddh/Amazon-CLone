@@ -1,0 +1,77 @@
+/**Layout**/
+.center{
+ 
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  .img{
+   
+    justify-content: center;
+    display: flex;
+  
+   }
+  
+  /**Layout**/
+  
+  /** Form Starts**/
+   .center h2{
+    margin-left: 37px;
+  
+   }
+  
+  .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+  
+    border: 2px solid black;
+  
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -9px;
+    color: black;
+  }
+  
+  
+  button.signupbtn {
+      background-color: rgb(241, 196, 31);
+      width: 240px;
+      height: 28px;
+      cursor: pointer;
+  }
+  
+  /** Form Ends**/
